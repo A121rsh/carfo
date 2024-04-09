@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background: url('https://t4.ftcdn.net/jpg/03/09/55/09/240_F_309550957_MpeJtTyfzNZRdf2ASNTnEXasDPuhhB3u.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.over{
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(44, 42, 42, 0.247);
+}
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100vw;
+}
+.img img{
+    width: 64%;
+    filter:drop-shadow(5px 5px 40px black);
+}
+.nav{
+    display: flex;
+    color: white;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1vw;
+    position: absolute;
+}
+.logo{
+    margin-left: 4vw;
+    font-size:2vw;
+}
+.menus{
+    display: flex;
+    gap: 4vw;
+
+}
+.menus h4:nth-child(1){
+    color: orange;
+}
+.menus h4{
+    font-size: 1.5vw;
+}
+.icons{
+    display: flex;
+    gap: 1vw;
+}
+.bars{
+    height: 5vw;
+    width: 5vw;
+    background-color:white;
+    color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.right{
+    position: absolute;
+    height: 100%;
+    color: white;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 3vw;
+    line-height:7vh;
+}
+.right h1{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    font-size: 2vw;
+}
+.cir{
+    height: 2vw;
+    width: 2vw;
+    border: 5px solid orange;
+    border-radius: 50%;
+
+}
+
+.left{
+    height: 100%;
+    position: absolute;
+    display: flex;
+    row-gap: 5vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: 0;
+}
+.left h3{
+    color: white;
+    font-size: 2vw;
+    margin-left: 4vw;;
+}
+.left h3:nth-child(3){
+    color: orange;
+}
+.bottom{
+    position: absolute;
+    width: 50%;
+    color: white;
+    bottom: 0;
+    padding-bottom: 6vh;
+    margin-left: 4vw;
+    font-size:1.5vw;
+    display: flex;
+    gap: 3vw;
+    color: orange;
+
+}
+.go{
+    height: 5vw;
+    width: 5vw;
+    background-color:  orange;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1vw;
+}
